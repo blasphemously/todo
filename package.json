@@ -1,18 +1,21 @@
 {
   "name": "todo",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.1",
+  "type": "commonjs",
   "main": "main.js",
+  "homepage": ".",
   "scripts": {
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite",
     "electron": "electron .",
-    "dev": "vite --port 3000 & npm run electron"
+    "dev": "vite --port 3000 & npm run electron",
+    "electron-start": "electron ."
   },
   "dependencies": {
+    "electron-reloader": "^1.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
