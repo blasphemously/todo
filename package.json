@@ -11,8 +11,7 @@
     "preview": "vite preview",
     "start": "vite",
     "electron": "electron .",
-    "dev": "vite --port 3000 & npm run electron",
-    "electron-start": "electron ."
+    "dev": "vite --port 3000 & electron ."
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.15",
